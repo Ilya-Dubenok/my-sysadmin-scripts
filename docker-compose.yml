@@ -1,0 +1,7 @@
+services:
+  my-script:
+    build:
+      context: .
+    container_name: my-script
+    ports:
+      - "8080:8080"
